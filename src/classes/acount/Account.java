@@ -1,4 +1,4 @@
-package classes;
+package classes.acount;
 
 public class Account {
     protected final int number = (int) (Math.random() * 900000) + 100000;

@@ -1,4 +1,6 @@
-package classes;
+package classes.acount;
+
+import classes.acount.Account;
 
 import java.util.Scanner;
 
@@ -12,7 +14,7 @@ public class CheckingAccount extends Account {
     }
 
     @Override
-    public void withdraw(double amount) {
+    public  void withdraw(double amount) {
         if (balance - amount >= 0) {
             setbalance(balance - amount);
             System.out.println("Withdrawal successful. New positive balance: " + getBalance());
